@@ -1,10 +1,18 @@
 .header{
-    background-color: var(--gray-800);
+    background-color: var(--gray-700);
     display: flex;
     justify-content: center;
     padding: 1.25rem 0;
+    font-family: cursive;
+    font-size: 1.5rem; 
+    color: var(--gray-500);
+    text-shadow: 3px 3px 4px var(--brown-100); /* Sombra do texto */
+    
 }
+
 strong{
     height: 2rem; 
     padding: 5px;   
+       
 }
+
