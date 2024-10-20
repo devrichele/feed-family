@@ -16,10 +16,10 @@ export function Post (){
 
              </header>
              <div className={styles.content}>
-                <p>
-                    Olá Pessoal, estou amando aprender mais sobre criação de componente.
-                    Cada dia que passa, eu me apaixono mais um pouco pela programação.
-                </p>
+            
+                    <p>Olá Pessoal, estou amando aprender mais sobre criação de componente. </p>
+                    <p>Cada dia que passa, eu me apaixono mais um pouco pela programação.    </p>
+                    <a>brendaricheledev@gmail.com </a>
              </div>
         </article>
     )
