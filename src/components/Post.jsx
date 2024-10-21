@@ -21,6 +21,16 @@ export function Post (){
                     <p>Cada dia que passa, eu me apaixono mais um pouco pela programação.    </p>
                     <a>brendaricheledev@gmail.com </a>
              </div>
+
+             <form className={styles.comentForm}> 
+                <strong>Deixe seu Feedback</strong>
+                
+                <textarea
+                    placeholder='Deixe um Comentário'
+                />
+                <button type="submit">Comentar</button>
+
+             </form>
         </article>
     )
 }
