@@ -18,7 +18,7 @@
 }
 .content a {
     font-weight: bold;
-    color: var(--gray-900);
+    color: var(--gray-400);
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .author img {
-    width: 3rem;
+        width: 3rem;
         height: 3rem;
         border-radius: 8px;
         border: 4px solid var(--gray-800);
@@ -68,13 +68,13 @@
     border-top: 1px solid var(--brown-100);
 }
 
-.comentForm > strong {
+.commentForm > strong {
     line-height: 1.6;
     color: var(--gray-100);
     
 }
 
-.comentForm textarea {
+.commentForm textarea {
     width: 100%;
     background-color: var(--gray-900);
     border: 0;
@@ -87,13 +87,34 @@
     margin-top: 1rem;
 }
 
-.comentForm button [type=submit] {
+.commentForm footer {
+    visibility: hidden;
+    max-height: 0;
+}
+.commentForm:focus-within footer {
+    visibility: visible;
+    max-height: none;
+
+}
+
+.commentForm button[type=submit] {
     padding: 1rem 1.5rem;
     margin-top: 1rem;
     border-radius: 8px;
     border: 0;
-    background-color: var(--green-500);
+    background-color: var( --brown-100);
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
+
+
+}
+
+.commentForm button[type=submit]:hover {
+    background-color: var(--gray-400);
+}
+
+.commentList {
+
+    margin-top: 2rem;
 }
